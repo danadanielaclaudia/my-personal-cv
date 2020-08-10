@@ -1,0 +1,32 @@
+/* header */
+  
+  header {
+    background: linear-gradient(90deg, #F1CFC5 0%, rgba(153,153,153,0.8) 100%);
+    z-index: 2000;
+    top: 0;
+    position: sticky;
+  }
+
+  .header-link, .header-link > a{
+      text-shadow: 3px 2px 4px #000000;
+      color: #FFDBCF !important;
+      font-size: 18px !important;
+      font-weight: 600 !important;
+  }
+  
+  .header-link:hover, .header-link > a:hover {
+    color: black !important;
+    text-decoration: none !important;
+  }
+  
+  .container-header {
+      margin-bottom: 0px;
+  }
+
+ 
+
+
+  
+
+
+  

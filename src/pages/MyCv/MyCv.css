@@ -1,0 +1,76 @@
+.body-mycv {
+    background-color: #EFEFEF;
+    padding: 0 40px;
+}
+
+.row {
+    margin: 0 !important;
+}
+
+.center > span {
+    font-size: 20px;
+}
+
+.photo-container {
+    min-width: 350px;
+    min-height: 320px;
+}
+
+.photo {
+    margin-top: -234px;
+    position: relative;
+    z-index: 2000;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+.center {
+    text-align: center;
+}
+
+.circle {
+    z-index: -1;
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 60px;
+}
+
+p {
+      font-size: 14px;
+      line-height: 14px;
+      font-weight: 400;
+  }
+
+li {
+    font-size: 12px;
+}  
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  hr.style-one {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #ADACAB, #DBC4BD);
+  }
+
+
+  /* font-awesome */
+  .fas {
+      margin-right: 15px;
+  }
+
+
+
