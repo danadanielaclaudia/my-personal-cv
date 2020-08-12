@@ -14,3 +14,8 @@
 .card-holder {
     padding: 2rem;
 }
+
+.image-gallery-slide img {
+    width: 100%;
+    height: 300px;
+}

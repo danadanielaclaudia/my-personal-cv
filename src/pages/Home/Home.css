@@ -5,7 +5,7 @@
     height: auto;
     z-index: -1;
   } 
-    
+
   .about {
     padding-left: 40px;
     padding-right: 40px;
@@ -15,7 +15,9 @@
   
   .about h1 {
     font-size: 55px;
-    color: #706767;
+    background: linear-gradient(180deg, rgba(83,172,172,1) 0%, rgba(72,72,72,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;    
     font-weight: 900;
     padding-bottom: 20px;
   }
