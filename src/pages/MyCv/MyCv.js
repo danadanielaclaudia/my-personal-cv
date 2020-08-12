@@ -5,25 +5,25 @@ function MyCv() {
     return (
         <div className="body-mycv">
             <div className="row align-items-center">
-                <div class="col-12 col-md-4 photo-container">
+                <div className="col-12 col-md-4 photo-container">
                     <img className="circle mx-auto d-block" src="assets/images/move.gif" alt="gif" />
                     <img className="photo mx-auto d-block" src="assets/images/cv-image.jpg" alt="jpg" />
                 </div>
-                <div class="col-12 col-md-4 center">
+                <div className="col-12 col-md-4 center">
                     <span>Curriculum Vitae</span>
                     <br></br>
                     <span>Daniela Claudia Moisa</span>
                 </div>
             </div>
             <div className="personal-info">
-                <p className="section-title"><span><i class="fas fa-info"></i></span>personal information</p>
+                <p className="section-title"><span><i className="fas fa-info"></i></span>personal information</p>
                 <hr className="style-one"></hr>
                 <p>Str. Porii, nr. 8a, ap. 11, 407280 Floresti (Cluj)</p>
                 <p>Tel: +40 770613999</p>
                 <p>mail: moisadaniela1988@gmail.com</p>
             </div>
             <div>
-                <p className="section-title"><span><i class="fas fa-briefcase"></i></span>work experience</p>
+                <p className="section-title"><span><i className="fas fa-briefcase"></i></span>work experience</p>
                 <hr className="style-one"></hr>
                 <p>01/10/2019–Present - Architectural drafter</p>
                 <p>SC, Cluj-Napoca (Romania)</p>
@@ -68,7 +68,7 @@ function MyCv() {
                 </ul>
             </div>
             <div>
-                <p className="section-title"><span><i class="fas fa-graduation-cap"></i></span>education and training</p>
+                <p className="section-title"><span><i className="fas fa-graduation-cap"></i></span>education and training</p>
                 <hr className="style-one"></hr>
                 <p>10/03/2020–10/08/2020 - Certificate in Front- End Web Development (Javascript)</p>
                 <p>The Informal School of IT, Cluj- Napoca (Romania)</p>
@@ -100,7 +100,7 @@ function MyCv() {
                 <p>Faculty of Architecture and Urbanism Cluj Napoca, Cluj Napoca (Romania)</p>
             </div>
             <div>
-                <p className="section-title"><span><i class="fas fa-check-double"></i></span>personal skills</p>
+                <p className="section-title"><span><i className="fas fa-check-double"></i></span>personal skills</p>
                 <hr className="style-one"></hr>
                 <p>Languages</p>
                <ul>
@@ -151,12 +151,6 @@ function MyCv() {
                 </ul>
             </div>
         </div>
-
-
-
-
-
-
     );
 }
 

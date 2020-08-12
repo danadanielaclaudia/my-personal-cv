@@ -1,0 +1,16 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.image-gallery-left-nav .image-gallery-svg, 
+.image-gallery-right-nav .image-gallery-svg {
+    height: 5rem;
+    width: 5rem;
+}
+
+.image-gallery-fullscreen-button .image-gallery-svg {
+    height: 2rem;
+    width: 2rem;
+}
+
+.card-holder {
+    padding: 2rem;
+}

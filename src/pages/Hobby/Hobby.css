@@ -12,3 +12,8 @@
     animation: pulse 1s infinite;
     animation-timing-function: linear;    
 }
+
+.image-container > img {
+    padding: 0px;
+    box-shadow: 4px 4px #888888;
+}

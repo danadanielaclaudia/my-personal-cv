@@ -9,7 +9,8 @@ import Home from './pages/Home';
 import Footer from './components/Footer';
 import MyCv from './pages/MyCv';
 import Hobby from './pages/Hobby';
-import Work from './pages/Work';
+import Architecture from './pages/Architecture';
+import IT from './pages/IT';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <Header />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/work" component={Work} />
+          <Route path="/architecture" component={Architecture} />
+          <Route path="/it" component={IT} />
           <Route path="/hobby" component={Hobby} />
           <Route path="/mycv" component={MyCv} />
         </Switch>
