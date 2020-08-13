@@ -5,7 +5,6 @@ const Footer = () => {
   return (
 
     <div className="page-footer font-small  darken-3">
-
       <div className="row footer">
         <div className="col-md-12 py-5">
           <div className="mb-5 flex-center">

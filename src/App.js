@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 import './App.css';
 
@@ -11,6 +13,7 @@ import MyCv from './pages/MyCv';
 import Hobby from './pages/Hobby';
 import Architecture from './pages/Architecture';
 import IT from './pages/IT';
+
 
 function App() {
   return (
