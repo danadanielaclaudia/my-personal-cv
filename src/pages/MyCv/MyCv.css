@@ -7,6 +7,10 @@
     margin: 0 !important;
 }
 
+.img-fluid {
+    z-index: -10;
+}
+
 .center>span {
     font-size: 25px;
     font-weight: 300;
@@ -42,7 +46,7 @@
 p {
     font-size: 14px !important;
     line-height: 14px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 li {
@@ -75,4 +79,20 @@ hr.style-one {
 .fas {
     margin-right: 15px;
     color: rgb(165, 144, 137);
+}
+
+/* accordion */
+
+.card-header {
+    background-color: rgb(218, 212, 210)!important;
+}
+
+.card {
+    max-width: 900px;
+    cursor: pointer;
+
+}
+
+.collapse {
+    transition: 1s;
 }
