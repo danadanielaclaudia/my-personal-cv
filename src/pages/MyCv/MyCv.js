@@ -18,13 +18,14 @@ function MyCv() {
                         <span>Daniela Claudia Moisa</span>
                     </div>
                 </div>
-                <img className="img-fluid" src="assets/images/geometric.png" alt="png" />
+                <br></br>
+                <br></br>
                 <Card>
                     <Accordion.Toggle as={Card.Header} eventKey="0">
                         <p className="section-title"><span><i className="fas fa-info"></i></span>personal information</p>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="0">
-                        <Card.Body>
+                        <Card.Body className="custom-card">
                             <p>Str. Porii, nr. 8a, ap. 11, 407280 Floresti (Cluj)</p>
                             <p>Tel: +40 770613999</p>
                             <p>mail: moisadaniela1988@gmail.com</p>
@@ -37,7 +38,7 @@ function MyCv() {
                         <p className="section-title"><span><i className="fas fa-briefcase"></i></span>work experience</p>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="1">
-                        <Card.Body>
+                        <Card.Body className="custom-card">
                             <p>01/10/2019–Present - Architectural drafter</p>
                             <p>SC, Cluj-Napoca (Romania)</p>
                             <ul>
@@ -88,7 +89,7 @@ function MyCv() {
                         <p className="section-title"><span><i className="fas fa-graduation-cap"></i></span>education and training</p>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="2">
-                        <Card.Body>
+                        <Card.Body className="custom-card">
                             <p>10/03/2020–10/08/2020 - Certificate in Front- End Web Development (Javascript)</p>
                             <p>The Informal School of IT, Cluj- Napoca (Romania)</p>
                             <ul>
@@ -126,7 +127,7 @@ function MyCv() {
                         <p className="section-title"><span><i className="fas fa-check-double"></i></span>personal skills</p>
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="3">
-                        <Card.Body>
+                        <Card.Body className="custom-card">
                             <p>Languages</p>
                             <ul>
                                 <li>English</li>

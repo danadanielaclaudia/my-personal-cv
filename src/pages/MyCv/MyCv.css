@@ -1,7 +1,16 @@
 .body-mycv {
     background-color: #EFEFEF;
-    padding: 0 40px;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-bottom: 100px;
 }
+
+@media only screen and (max-width: 768px) {
+    .body-mycv {
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+  }
 
 .row {
     margin: 0 !important;
@@ -11,9 +20,10 @@
     z-index: -10;
 }
 
-.center>span {
+.center > span {
     font-size: 25px;
     font-weight: 300;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .photo-container {
@@ -40,7 +50,8 @@
 .section-title {
     text-transform: uppercase;
     font-weight: 600;
-    margin-top: 60px;
+    margin: 0;
+    padding: 30px 0;
 }
 
 p {
@@ -49,10 +60,14 @@ p {
     font-weight: 500;
 }
 
+ul {
+    margin: 0;
+    padding: 10px 0 0 20px;
+}
+
 li {
     font-size: 12px;
     position: relative;
-    left: 15px;
 }
 
 .grid-container {
@@ -73,11 +88,11 @@ hr.style-one {
     background-image: -webkit-linear-gradient(left, #ADACAB, #DBC4BD);
 }
 
-
 /* font-awesome */
 
 .fas {
-    margin-right: 15px;
+    text-align: center;
+    min-width: 25px;
     color: rgb(165, 144, 137);
 }
 
@@ -88,11 +103,14 @@ hr.style-one {
 }
 
 .card {
-    max-width: 900px;
     cursor: pointer;
 
 }
 
 .collapse {
     transition: 1s;
+}
+
+.card-body.custom-card {
+    text-align: left;
 }

@@ -3,7 +3,6 @@ import ImageContainer from '../../components/ImageContainer';
 import * as imageService from '../../services/images';
 import './Hobby.css';
 
-
 class Hobby extends Component {
   state = {
     images: [],

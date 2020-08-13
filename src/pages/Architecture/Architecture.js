@@ -129,33 +129,6 @@ const imagesFinisel = [
   },
 ];
 
-const imagesPata = [
-  {
-    original: 'assets/images/Architecture/Casa Pata/fatada1-2.jpg',
-    thumbnail: 'assets/images/Architecture/Casa Pata/fatada1-2.jpg',
-  },
-  {
-    original: 'assets/images/Architecture/Casa Pata/fatada 3-4.jpg',
-    thumbnail: 'assets/images/Architecture/Casa Pata/fatada 3-4.jpg',
-  },
-  {
-    original: 'assets/images/Architecture/Casa Pata/plan subsol.jpg',
-    thumbnail: 'assets/images/Architecture/Casa Pata/plan subsol.jpg',
-  },
-  {
-    original: 'assets/images/Architecture/Casa Pata/plan parter.jpg',
-    thumbnail: 'assets/images/Architecture/Casa Pata/plan parter.jpg',
-  },
-  {
-    original: 'assets/images/Architecture/Casa Pata/plan invelitoare.jpg',
-    thumbnail: 'assets/images/Architecture/Casa Pata/plan invelitoare.jpg',
-  },
-  {
-    original: 'assets/images/Architecture/Casa Pata/sectiune.jpg',
-    thumbnail: 'assets/images/Architecture/Casa Pata/sectiune.jpg',
-  },
-];
-
 const imagesRandari = [
   {
     original: 'assets/images/Architecture/Casa randari/1.jpg',
@@ -191,6 +164,33 @@ const imagesRandari = [
   },
 ];
 
+const imagesPata = [
+  {
+    original: 'assets/images/Architecture/Casa Pata/fatada1-2.jpg',
+    thumbnail: 'assets/images/Architecture/Casa Pata/fatada1-2.jpg',
+  },
+  {
+    original: 'assets/images/Architecture/Casa Pata/fatada 3-4.jpg',
+    thumbnail: 'assets/images/Architecture/Casa Pata/fatada 3-4.jpg',
+  },
+  {
+    original: 'assets/images/Architecture/Casa Pata/plan subsol.jpg',
+    thumbnail: 'assets/images/Architecture/Casa Pata/plan subsol.jpg',
+  },
+  {
+    original: 'assets/images/Architecture/Casa Pata/plan parter.jpg',
+    thumbnail: 'assets/images/Architecture/Casa Pata/plan parter.jpg',
+  },
+  {
+    original: 'assets/images/Architecture/Casa Pata/plan invelitoare.jpg',
+    thumbnail: 'assets/images/Architecture/Casa Pata/plan invelitoare.jpg',
+  },
+  {
+    original: 'assets/images/Architecture/Casa Pata/sectiune.jpg',
+    thumbnail: 'assets/images/Architecture/Casa Pata/sectiune.jpg',
+  },
+];
+
 const imagesSimionescu = [
   {
     original: 'assets/images/Architecture/Casa Simionescu Fatade/nord est.jpg',
@@ -223,9 +223,19 @@ const imagesReleveu = [
 
 
 class Architecture extends React.Component {
+  componentDidMount() {
+    document.body.classList.add('body-archi');
+  }
+
+  componentWillUnmount() {
+    document.body.classList.remove('body-archi');
+  }
   render() {
     return (
       <>
+      <div className="archi-it-title">
+        <h1>Architecture Portfolio</h1>
+      </div>
         <div className="container">
           <div className="row">
 
@@ -255,11 +265,11 @@ class Architecture extends React.Component {
 
             <div className="col-12 col-lg-4 col-md-6 card-holder">
               <Card>
-                <ImageGallery items={imagesPata} showPlayButton={false} />
+                <ImageGallery items={imagesRandari} showPlayButton={false} />
                 <Card.Body>
-                  <Card.Title>Casa Pata</Card.Title>
+                  <Card.Title>Casa Luna</Card.Title>
                   <Card.Text>
-                  Casa unifamiliala D+P
+                  Casa unifamiliala P
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -267,11 +277,11 @@ class Architecture extends React.Component {
 
             <div className="col-12 col-lg-4 col-md-6 card-holder">
               <Card>
-                <ImageGallery items={imagesRandari} showPlayButton={false} />
+                <ImageGallery items={imagesPata} showPlayButton={false} />
                 <Card.Body>
-                  <Card.Title>Casa Luna</Card.Title>
+                  <Card.Title>Casa Pata</Card.Title>
                   <Card.Text>
-                  Casa unifamiliala P
+                  Casa unifamiliala D+P
                   </Card.Text>
                 </Card.Body>
               </Card>

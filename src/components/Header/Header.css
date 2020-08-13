@@ -7,7 +7,7 @@
     position: sticky;
   }
 
-  .header-link, .header-link > a{
+  .header-link, .header-link > a {
       text-shadow: 3px 2px 4px #000000;
       color: #FFDBCF !important;
       font-size: 18px !important;

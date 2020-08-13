@@ -1,0 +1,11 @@
+.body-it {
+  background: linear-gradient(180deg, rgba(187,207,207,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-text > a > i {
+    margin: 0!important;
+}

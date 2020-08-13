@@ -6,14 +6,17 @@
     z-index: -1;
   } 
 
-  .about {
-    padding-left: 40px;
-    padding-right: 40px;
+  .about-me {
+    padding-left: 8vw;
+    padding-right: 8vw;
     line-height: 2.5em;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    text-align: center;
   
   }
   
-  .about h1 {
+  .about-me > h1 {
     font-size: 55px;
     background: linear-gradient(180deg, rgba(83,172,172,1) 0%, rgba(72,72,72,1) 100%);
     background-clip: text;
@@ -22,11 +25,12 @@
     padding-bottom: 20px;
   }
   
-  .about p {
-    font-size: 15px;
-    line-height: 20px;
+  .about-me > p {
+    font-size: 15px!important;
+    line-height: 23px;
     text-align: center;
     color: #707075;
+    font-weight: 300;
   }
 
   /* loader */
