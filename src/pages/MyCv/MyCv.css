@@ -100,11 +100,7 @@ hr.style-one {
 
 .card-header {
     background-color: rgb(218, 212, 210)!important;
-}
-
-.card {
     cursor: pointer;
-
 }
 
 .collapse {

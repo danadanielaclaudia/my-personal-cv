@@ -47,7 +47,7 @@ class IT extends React.Component {
                                 <Card.Body>
                                     <Card.Title>Project 1</Card.Title>
                                     <Card.Text>
-                                        <p>Description for Project 1</p>
+                                        Description for Project 1
                                         <a href="https://github.com/danadanielaclaudia" target="_blank" rel="noopener noreferrer">
                                             <i className="fab fa-github fa-lg black-text mr-md-5 mr-3 fa-2x"> </i>
                                         </a>
@@ -60,9 +60,9 @@ class IT extends React.Component {
                             <Card>
                                 <ImageGallery items={imagesProject2} showPlayButton={false} />
                                 <Card.Body>
-                                    <Card.Title>Project 1</Card.Title>
+                                    <Card.Title>Project 2</Card.Title>
                                     <Card.Text>
-                                        <p>Description for Project 1</p>
+                                        Description for Project 2
                                         <a href="https://github.com/danadanielaclaudia" target="_blank" rel="noopener noreferrer">
                                             <i className="fab fa-github fa-lg black-text mr-md-5 mr-3 fa-2x"> </i>
                                         </a>
@@ -75,9 +75,9 @@ class IT extends React.Component {
                             <Card>
                                 <ImageGallery items={imagesProject3} showPlayButton={false} />
                                 <Card.Body>
-                                    <Card.Title>Project 1</Card.Title>
+                                    <Card.Title>Project 3</Card.Title>
                                     <Card.Text>
-                                        <p>Description for Project 1</p>
+                                        Description for Project 3
                                         <a href="https://github.com/danadanielaclaudia" target="_blank" rel="noopener noreferrer">
                                             <i className="fab fa-github fa-lg black-text mr-md-5 mr-3 fa-2x"> </i>
                                         </a>

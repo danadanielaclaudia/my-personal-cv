@@ -7,5 +7,12 @@
 }
 
 .card-text > a > i {
-    margin: 0!important;
+    margin-left: 30px;
 }
+
+.card {
+  cursor: auto;
+}
+
+
+
