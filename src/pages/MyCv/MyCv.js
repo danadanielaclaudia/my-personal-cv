@@ -26,9 +26,9 @@ function MyCv() {
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="0">
                         <Card.Body className="custom-card">
-                            <p>Str. Porii, nr. 8a, ap. 11, 407280 Floresti (Cluj)</p>
+                            <p>Cluj- Napoca</p>
                             <p>Tel: +40 770613999</p>
-                            <p>mail: moisadaniela1988@gmail.com</p>
+                            <p>Mail: arhmoisadaniela@gmail.com</p>
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
@@ -40,7 +40,7 @@ function MyCv() {
                     <Accordion.Collapse eventKey="1">
                         <Card.Body className="custom-card">
                             <p>01/10/2019–Present - Architectural drafter</p>
-                            <p>SC, Cluj-Napoca (Romania)</p>
+                            <p>AMB Arhitectura si Consultanta SRL, Cluj-Napoca (Romania)</p>
                             <ul>
                                 <li>Draft and prepare architectural layout drawings</li>
                                 <li>Produce draft designs and diagrams from sketches</li>
@@ -164,6 +164,7 @@ function MyCv() {
                                     <li>Archicad</li>
                                     <li>Adobe Photoshop</li>
                                     <li>Adobe Illustrator</li>
+                                    <li>Corel Draw</li>
                                     <li>Lumion</li>
                                     <li>Office Suite</li>
                                     <li>Visual Studio Code</li>
